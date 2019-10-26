@@ -24,7 +24,7 @@ function mergeChardataById(message, member) {
             'timestamp': new Date(message[i].timestamp).toUTCString(),
             'email': member[j].email,
             'message': message[i].message,
-            'avatar': member[j].avatar
+            'avatar': member[j].avatar || null
           });
       }
     }

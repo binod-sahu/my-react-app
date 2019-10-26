@@ -10,6 +10,5 @@
       var bTime = new Date(b.timestamp);
       return aTime - bTime;
     })
-    console.log(messages);
     return messages;
   }
