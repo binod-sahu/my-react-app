@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import getChatLog from "./service";
-import { ChatMessageList } from "./components/ChatMessageList";
+import { ChatMessageList } from "./components/chatMessageList";
+import { Header } from "./components/header";
+
 
 class App extends Component {
 
@@ -19,7 +21,7 @@ class App extends Component {
     const { list } = this.state;
     return (
       <div className="AppContainer">
-        <h1>SKY</h1>
+        <Header />
         <ChatMessageList list={list} />
       </div>
     );

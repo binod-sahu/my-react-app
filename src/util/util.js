@@ -12,3 +12,7 @@
     })
     return messages;
   }
+
+  export const changeTimestamp = timestamp => (
+    new Date(timestamp).toLocaleDateString()
+  )
