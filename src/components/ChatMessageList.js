@@ -31,10 +31,12 @@ export const ChatMessageListItem = ({ item }) => (
 
 export const ChatMessageList = (props) => (
     <div className="chatListContainer">
-        {props.list.map((item) => (
+        { 
+            props.list && props.list.length > 0 ?
+            props.list.map((item) => (
             <ChatMessageListItem key={item.userId} item={item} {...props}></ChatMessageListItem>
-        )
-        )}
+        )) : <div className="loading"><h1>Loading...</h1></div>
+        }
     </div>
 )
 
