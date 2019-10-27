@@ -10,9 +10,6 @@ const Avatar = props => (
     </div>
   );
 
-const FetchMail = email => (
-    <span className='email'>{email}</span>
-);
 
 export const ChatMessageListItem = ({ item }) => (
     <div className="card">
