@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import getChatLog from "./service";
+import getChatLog from "./services/service";
 import { ChatMessageList } from "./components/chatMessageList";
 import { Header } from "./components/header";
 
