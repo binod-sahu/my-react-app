@@ -11,7 +11,7 @@ export default async function getChatLog() {
 };
 
 
-function mergeChardataById(message, member) {
+export function mergeChardataById(message, member) {
   const newArray = [];
   for (let i = 0; i < message.length; i++) {
     for (var j = 0; j < member.length; j++) {
