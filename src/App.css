@@ -47,6 +47,7 @@
 }
 .card:hover .email {
   display: block;
+  color: blue;
 }
 
 .loading {
