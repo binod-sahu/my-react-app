@@ -17,9 +17,13 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 20px auto;
 }
-
+.chatListContainer ul {
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
 .card {
   width: 300px;
   box-shadow: 0 10px 10px -5px;
