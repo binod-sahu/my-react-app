@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 // import getChatLog from "./services/service";
-import { ChatMessageList } from "./components/chatMessageList";
+import { ChatMessageList } from "./components/ChatMessageList";
 import { Header } from "./components/header";
 import LoadMembers from "./actions/LoadMembers";
 import LoadMessages from "./actions/LoadMessages";
