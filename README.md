@@ -1,1 +1,1 @@
-A Node, React application with react-redux and redux-thunk
+A Node, React application with react-redux and redux-thunk_
